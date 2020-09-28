@@ -15,8 +15,8 @@
     //UART
     #define USART1_BLE_TX       PA_9
     #define USART1_BLE_RX       PA_10
-    #define USART2_232_TX       PA_2
-    #define USART2_232_RX       PA_3
+    #define USART2_TTL_TX       PA_2
+    #define USART2_TTL_RX       PA_3
     #define USART3_232_TX       PB_10 
     #define USART3_232_RX       PB_11
     #define USART3_485_TX       PB_10 // RS485 --> Precintos
