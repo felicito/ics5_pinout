@@ -12,7 +12,7 @@
 #ifndef __ICS5_PINOUT_H
 #define __ICS5_PINOUT_H 
 
-    extern const int ICS_BOARD_ID;
+    #define             ICS_BOARD_ID  5
 
     #if (ICS_BOARD_ID == 5)
         //UART

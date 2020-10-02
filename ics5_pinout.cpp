@@ -9,4 +9,3 @@
  * 
  */
 
-const int ICS_BOARD_ID = 5;
