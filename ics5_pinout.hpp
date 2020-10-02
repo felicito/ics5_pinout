@@ -87,7 +87,7 @@
         // BSP
         #define USER_BUTTON         PC_13
         #define USER_LED2           PA_4
-        #define USER_LED2           PB_0
+        #define USER_LED3           PB_0
         // 1-WIRE 
         #define ONE_WIRE            PB_1
         #define ONE_WIRE2           PB_2
