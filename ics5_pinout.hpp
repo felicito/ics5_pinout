@@ -61,16 +61,22 @@
         #define I2C_SDA             PB_9
     #elif (ICS_BOARD_ID == 3)
         //UART
-        #define BLE_TX              PB_10   //USART3
-        #define BLE_RX              PB_11
-        #define RS232_CH1_TX        PA_9    //USART1
-        #define RS232_CH1_RX        PA_10
-        #define RS232_CH2_TX        PA_2    //USART2
-        #define RS232_CH2_RX        PA_3
-        #define TTL_3_TX            PB_10
-        #define TTL_3_RX            PB_11
-        #define TTL_4_TX            PA_0    //USART4
-        #define TTL_4_RX            PA_1
+        #define BLE_TX          PA_9    //USART1
+        #define BLE_RX          PA_10
+        #define TTL_1_TX        PA_9    //USART1
+        #define TTL_1_RX        PA_10
+        #define TTL_2_TX        PA_2    //USART2
+        #define TTL_2_RX        PA_3
+        #define RS232_CH1_TX    PA_2    //USART2
+        #define RS232_CH1_RX    PA_3
+        #define RS232_CH2_TX    PB_10   //USART3
+        #define RS232_CH2_RX    PB_11
+        #define RS485_TX        PB_10   //USART3
+        #define RS485_RX        PB_11
+        #define TTL_4_TX        PA_0    //USART4
+        #define TTL_4_RX        PA_1
+        #define TTL_5_TX        PB_3    //USART5
+        #define TTL_5_RX        PB_4
         // INPUT 
         #define INPUT1_POSITIVE     PA_5
         #define INPUT2_NEGATIVE     PA_6
@@ -166,7 +172,5 @@
         // BSP
         #define USER_BUTTON         PC_13
         #define USER_LED2           PA_5
-        
-
     #endif
 #endif  //__ICS5_PINOUT_H
