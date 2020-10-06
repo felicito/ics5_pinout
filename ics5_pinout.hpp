@@ -126,5 +126,47 @@
         #define OUTPUT6_NEGATIVE    PB_5
         #define OUTPUT7_NEGATIVE    PB_4
         #define USER_LED2           PB_3    // LED BSP
+
+    #elif (ICS_BOARD_ID == 9)
+        /* ******************************************** */
+        /* *** PRUEBAS CON NUCLEO F091RC            *** */
+        /* ******************************************** */
+        //UART
+        #define BLE_TX          PC_10    //USART1
+        #define BLE_RX          PC_11
+        #define TTL_1_TX        PC_10    //USART1
+        #define TTL_1_RX        PC_11
+        #define TTL_2_TX        PC_12    //USART2
+        #define TTL_2_RX        PD_2
+        #define RS232_CH1_TX    PC_12    //USART2
+        #define RS232_CH1_RX    PD_2
+        #define RS232_CH2_TX    PC_0   //USART3
+        #define RS232_CH2_RX    PC_1
+        #define RS485_TX        PC_0   //USART3
+        #define RS485_RX        PC_1
+        #define TTL_4_TX        PA_2    //USART4
+        #define TTL_4_RX        PA_2
+        #define TTL_5_TX        PC_8    //USART5
+        #define TTL_5_RX        PC_9
+        // INPUT
+        #define INPUT1_POSITIVE     PC_4
+        #define INPUT2_NEGATIVE     PB_13
+        #define INPUT3_NEGATIVE     PB_14
+        #define INPUT4_NEGATIVE     PB_15
+        #define INPUT5_NEGATIVE     PB_1
+        #define INPUT6_NEGATIVE     PB_2
+        // OUTPUT
+        #define OUTPUT1_NEGATIVE    PC_3
+        #define OUTPUT2_NEGATIVE    PC_2
+        #define OUTPUT3_NEGATIVE    PF_1
+        #define OUTPUT4_NEGATIVE    PF_0
+        #define OUTPUT5_NEGATIVE    PC_15
+        #define OUTPUT6_NEGATIVE    PC_14
+        #define OUTPUT7_NEGATIVE    PB_7
+        // BSP
+        #define USER_BUTTON         PC_13
+        #define USER_LED2           PA_5
+        
+
     #endif
 #endif  //__ICS5_PINOUT_H
