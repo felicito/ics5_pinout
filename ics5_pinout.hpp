@@ -144,10 +144,10 @@
         #define RS232_CH2_RX    PC_1
         #define RS485_TX        PC_0   //USART3
         #define RS485_RX        PC_1
-        #define TTL_4_TX        PA_2    //USART4
-        #define TTL_4_RX        PA_2
-        #define TTL_5_TX        PC_8    //USART5
-        #define TTL_5_RX        PC_9
+        #define TTL_4_TX        PC_8    //USART4
+        #define TTL_4_RX        PC_9
+        #define TTL_5_TX        PA_2    //USART5
+        #define TTL_5_RX        PA_3
         // INPUT
         #define INPUT1_POSITIVE     PC_4
         #define INPUT2_NEGATIVE     PB_13
